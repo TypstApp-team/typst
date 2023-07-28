@@ -57,3 +57,8 @@ default = ["embed-fonts"]
 # - For math: New Computer Modern Math
 # - For code: Deja Vu Sans Mono
 embed-fonts = []
+
+[lib]
+name = "typst_library"
+path = "src/lib.rs"
+crate-type = ["staticlib", "cdylib"]
